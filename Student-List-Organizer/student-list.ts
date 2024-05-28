@@ -15,7 +15,6 @@ a function that removes students who haven't completed their assignments
 (assuming only seniors are responsible).
 o Can you think of any reasons why this might be useful (consider limitations)*/
 
-
 // Define the Student interface
 interface Student {
     name: string;
@@ -38,7 +37,7 @@ const students: Student[] = [
     {
         name: "Hoorain",
         seniorStatus: false,
-        assignmentCompleted: true,
+        assignmentCompleted: false,
     },
 ];
 
@@ -58,7 +57,5 @@ function updateClassList(students: Student[]): Student[] {
 const updatedClassList = updateClassList;
 
 console.log("Updated class list:", updatedClassList(students));
-
-
 
 

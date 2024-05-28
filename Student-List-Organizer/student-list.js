@@ -29,7 +29,7 @@ var students = [
     {
         name: "Hoorain",
         seniorStatus: false,
-        assignmentCompleted: true,
+        assignmentCompleted: false,
     },
 ];
 //students who are seniors and have completed their assignments.
